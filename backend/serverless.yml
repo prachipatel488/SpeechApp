@@ -2,9 +2,9 @@ service: talking-backend
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.0
   region: us-east-1 
-  
+  role : arn:aws:iam::916015747809:role/polly-actual-role 
       
 functions:
   speak:
