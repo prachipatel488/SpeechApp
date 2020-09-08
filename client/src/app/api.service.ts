@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class APIService {
 
-  ENDPOINT = 'https://6e6hvhhv2l.execute-api.us-east-2.amazonaws.com/dev';
+  ENDPOINT = 'https://rk3z5uizf9.execute-api.us-east-2.amazonaws.com/dev/speak';
 
   constructor(private http:HttpClient) {}
 

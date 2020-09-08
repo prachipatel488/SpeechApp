@@ -17,7 +17,7 @@ module.exports.speak = (event, context, callback) => {
       let data = response.data;
       let audioStream = data.AudioStream;
       let key = uuidv1();
-      let s3BucketName = 'my-texttospeech-talking-app';  
+      let s3BucketName = 'text-to-speech-app';  
 
       // 2. Saving the audio stream to S3
       let params = {
